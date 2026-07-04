@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "node --no-warnings src/index.js"
+restartPolicyType = "always"

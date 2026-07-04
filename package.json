@@ -1,0 +1,19 @@
+{
+  "name": "discord-ticket-bot",
+  "version": "1.0.0",
+  "description": "Bot de tickets completo para Discord usando Discord.js v14",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --no-warnings src/index.js",
+    "dev": "node --no-warnings --watch src/index.js",
+    "deploy": "node --no-warnings deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "winston": "^3.11.0"
+  },
+  "license": "MIT"
+}
